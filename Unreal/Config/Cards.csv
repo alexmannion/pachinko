@@ -1,0 +1,43 @@
+---,IsCardEnabled,Name,Image,Description,Stat Effects,Drinks To Holder,Drinks To Give,Points To Holder,Balls To Holder,Item Drink Modifier
+Alcoholic,TRUE,The Alcoholic,/Script/Engine.Texture2D'/Engine/MobileResources/HUD/AnalogHat.AnalogHat',"The holder of this card must take and give 3 drinks.
++2 Balls","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",3,3,0,2,None
+Lucky,TRUE,Lucky,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Lucky.T_Lucky',"Increased liklihood of 
+spawning additional items.
+But take 4 drinks.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=13)",4,0,0,0,None
+Anchor,TRUE,The Anchor,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Anchor.T_Anchor',"The holder of this item 
+must take 5 drinks.
+They will not have any items
+spawn next round.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=""/Script/PhysicsCore.PhysicalMaterial'/Game/Phys/PM_Ball_Anchor.PM_Ball_Anchor'"",Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=-1000)",5,0,0,0,None
+BonerLiam,TRUE,Boner Liam,/Script/Engine.Texture2D'/Game/Meshes/bonerliam1.bonerliam1',"Everyone takes 5 drinks
+except for the item holder.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=-1000)",0,5,0,0,Everyone But Holder Drinks
+Testicles,TRUE,Testicles,/Script/Engine.Texture2D'/Game/Widget/Textures/T_PLH_Ball.T_PLH_Ball',"The holder of this item 
+can give out 10 drinks,
+but they can only use 
+2 balls next turn.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=2,ItemSpawnLiklihood=2)",0,10,0,0,None
+Buddy,TRUE,Buddy,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Buddy.T_Buddy',"The holder must match
+{x}'s drinks
+for the next turn.
++4 balls, and holder gives 4 drinks","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",4,0,0,4,Player Matches Player's Drinks - Round
+Baller,TRUE,The Baller,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Baller.T_Baller',"Ball bounce drastically increased
+Take 3, +3 balls","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=""/Script/PhysicsCore.PhysicalMaterial'/Game/Phys/PM_Ball_Bouncy.PM_Ball_Bouncy'"",Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",3,0,0,3,None
+FatBastard,TRUE,The Fat Bastard,/Script/Engine.Texture2D'/Game/Widget/Textures/T_fatbastard.T_fatbastard',"Your ball will fall harder than the
+fat bastard who holds this item.
+Take 2, give 1.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=""/Script/PhysicsCore.PhysicalMaterial'/Game/Phys/PM_Ball_Anchor.PM_Ball_Anchor'"",Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",2,1,0,0,None
+Forklift,TRUE,The Forklift,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Forklift.T_Forklift',"Lift {x}'s problems onto someone else.
+The player who holds this item
+will have their balls swapped with {x}.
+Greatly increases item spawn liklihood.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=10)",0,0,0,0,Switch Random Player Balls With Someone Else
+ThugShaker,TRUE,Thugshaker,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Thugshaker.T_Thugshaker',"Your balls will shake violently 
+while they're falling.
++5 balls, Take 2 drinks.","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=True,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",2,0,0,5,None
+Spongebob,TRUE,A Spong,/Script/Engine.Texture2D'/Game/Widget/Textures/T_Spong.T_Spong',"The holder gets spong
+Take 3 drink","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=True,Spong?=True,Physics Material=""/Script/PhysicsCore.PhysicalMaterial'/Game/Phys/PM_Ball_Bouncy.PM_Ball_Bouncy'"",Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=10)",3,0,0,0,None
+Destroy,TRUE,Hell Hath No Beer,/Script/Engine.Texture2D'/Game/Widget/Textures/T_HellHathNoBeer.T_HellHathNoBeer',"Don't let a bunch of shitty pegs
+stop you from drinking alcohol.
++5 balls, +3 drinks","(Destroys Pegs=True,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",3,0,0,5,None
+NewRow,FALSE,CustomCardMarker,/Script/Engine.Texture2D'/AudioWidgets/AudioFader/AudioFader_Normal.AudioFader_Normal',"This Card Is Not Enabled And Just Exists To Separate PreMade Cards From Custom
+DO NOT REMOVE","(Destroys Pegs=False,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",0,0,0,0,END PREMADE CARDS
+TestRow,TRUE,The OG Custom Card,/Script/Engine.Texture2D'/Game/Widget/Textures/T_PLH_Ball.T_PLH_Ball',"The unfortunate reality
+Is setting in about these
+multiple line texts
++4 balls, and holder gives 4 drinks","(Destroys Pegs=True,Reset Balls To Default=False,ViolentlyShake=False,Spong?=False,Physics Material=None,Locked_Balls_To_Use_Next_Turn=-1,ItemSpawnLiklihood=2)",4,0,0,4,None

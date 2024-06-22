@@ -1,0 +1,68 @@
+[
+	{
+		"Name": "This is the ID your card will use for console commands, and being referenced internally, this is actually unused for these cards"
+		"IsCardEnabled": true,
+		"CardName": "The Real Name Of The Card",
+		"Image": "Texture Reference - Right now this will only work on internal textures. You can import custom .uassets and use the directory if you're a try-hard though",
+		"Description": "The holder of this card must take and give 3 drinks.\r\n+2 Balls",
+		"Stat Effects":
+		{
+			"Destroys Pegs": false,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"Spong?": false,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 2
+		}
+		"Drinks To Holder": 3,
+		"Drinks To Give": 3,
+		"Points To Holder": 0,
+		"Balls To Holder": 2,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Name": "",
+		"IsCardEnabled": true,
+		"CardName": "The Alcoholic",
+		"Image": "/Script/Engine.Texture2D'/Engine/MobileResources/HUD/AnalogHat.AnalogHat'",
+		"Description": "The holder of this card must take and give 3 drinks.\r\n+2 Balls",
+		"Stat Effects":
+		{
+			"Destroys Pegs": false,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"Spong?": false,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 2
+		}
+		"Drinks To Holder": 3,
+		"Drinks To Give": 3,
+		"Points To Holder": 0,
+		"Balls To Holder": 2,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Name": "",
+		"IsCardEnabled": true,
+		"CardName": "This Is The Card",
+		"Image": "/Script/Engine.Texture2D'/AudioWidgets/AudioFader/AudioFader_Normal.AudioFader_Normal'",
+		"Description": "Cool guy card! Yay!",
+		"Stat Effects":
+		{
+			"Destroys Pegs": true,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"Spong?": true,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 2
+		},
+		"Drinks To Holder": 3,
+		"Drinks To Give": 3,
+		"Points To Holder": 0,
+		"Balls To Holder": 0,
+		"Item Drink Modifier": "None"
+	}
+]
