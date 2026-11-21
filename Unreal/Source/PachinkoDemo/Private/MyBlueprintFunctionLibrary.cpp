@@ -3,6 +3,7 @@
 //#include "PachinkoDemo.h"
 #include "MyBlueprintFunctionLibrary.h"
 #include "Misc/Paths.h"
+#include "Misc/FileHelper.h"
 
 bool UMyBlueprintFunctionLibrary::ReadCSV(const FString& FilePath, TArray<FString>& OutRows)
 {

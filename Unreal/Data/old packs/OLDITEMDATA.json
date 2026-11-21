@@ -1,0 +1,156 @@
+[
+	{
+		"Placeholder": "ignore this line, but make sure to include it",
+		"Rarity": "This is a value 0 - 25 to indicate how rare the item is. Default is 10. Can go higher if you want it to be super common",
+		"CardName": "The Real Name Of The Card",
+		"Image": "Texture Reference - Add an image to Data/Textures and just put the name here. ex. BeerGlass.png",
+		"Description": "The holder of this card must take and give 3 drinks.\r\n+2 Balls - this is the only description players will see, so make sure it describes what the item does",
+		"Stat Effects": 
+		{
+			"Destroys Pegs": false,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"RoundLifespan": 1,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": Max 100
+		},
+		"Drinks To Holder": 3,
+		"Drinks To Give": 3,
+		"Points To Holder": 0,
+		"Balls To Holder": 2,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Name": "",
+		"Rarity": 10,
+		"CardName": "Takedown",
+		"Image": "T_Takedown.png",
+		"Description": "The holder of this card must take 4 drinks,\r\nwill lose 4 points. \r\nThey will in turn, have a slightly higher chance\r\n of items spawning next round.",
+		"Stat Effects":
+		{
+			"Destroys Pegs": false,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": true,
+			"RoundLifespan": 1,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 25
+		}
+		"Drinks To Holder": 3,
+		"Drinks To Give": 2,
+		"Points To Holder": 0,
+		"Balls To Holder": 0,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Name": "",
+		"Rarity": 12,
+		"CardName": "The Lefty",
+		"Image": "T_AngryLefty.png",
+		"Description": "The holder must drink for every \r\nplayer who has a left hand,\r\n+ left handed rage.",
+		"Stat Effects":
+		{
+			"Destroys Pegs": true,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": true,
+			"RoundLifespan": 1,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 10
+		}
+		"Drinks To Holder": 2,
+		"Drinks To Give": 0,
+		"Points To Holder": 0,
+		"Balls To Holder": 0,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Name": "",
+		"Rarity": 7,
+		"CardName": "It Do Go Down",
+		"Image": "T_ItDoGoDown.png",
+		"Description": "Robert. \r\nThe balls do go down.\r\nThe holder will give 4 drinks.",
+		"Stat Effects":
+		{
+			"Destroys Pegs": true,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"RoundLifespan": 1,
+			"Physics Material": "anchor",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 10
+		}
+		"Drinks To Holder": 0,
+		"Drinks To Give": 4,
+		"Points To Holder": 0,
+		"Balls To Holder": -5,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Placeholder": "",
+		"Rarity": 5,
+		"CardName": "Pahdrinko-Reverse",
+		"Image": "T_PahDrinkoReverse.png",
+		"Description": "The item holder gets to give a \r\ndrink for every drink they're given\r\nfor the next 2 rounds",
+		"Stat Effects": 
+		{
+			"Destroys Pegs": false,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"RoundLifespan": 1,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 10
+		},
+		"Drinks To Holder": 0,
+		"Drinks To Give": 0,
+		"Points To Holder": 0,
+		"Balls To Holder": -3,
+		"Item Drink Modifier": "None"
+	},
+	{
+		"Placeholder": "",
+		"Rarity": 9,
+		"CardName": "Old Baller",
+		"Image": "T_OldBaller.png",
+		"Description": "The item holder must drink the player age gap\r\n+ Ball hops, + Gamer rage",
+		"Stat Effects": 
+		{
+			"Destroys Pegs": true,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": true,
+			"RoundLifespan": 1,
+			"Physics Material": "bounce",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 20
+		},
+		"Drinks To Holder": 0,
+		"Drinks To Give": 0,
+		"Points To Holder": 0,
+		"Balls To Holder": 0,
+		"Item Drink Modifier": "Player Matches Player's Drinks - Round"
+	},
+	{
+		"Placeholder": "",
+		"Rarity": 5,
+		"CardName": "Royally Boned",
+		"Image": "T_TheGentleman.jpg",
+		"Description": "The item holder will have to \r\ndrink with every player until someone takes an item.\r\n +5 points",
+		"Stat Effects": 
+		{
+			"Destroys Pegs": false,
+			"Reset Balls To Default": false,
+			"ViolentlyShake": false,
+			"RoundLifespan": 1,
+			"Physics Material": "None",
+			"Locked_Balls_To_Use_Next_Turn": -1,
+			"ItemSpawnLiklihood": 10
+		},
+		"Drinks To Holder": 0,
+		"Drinks To Give": 0,
+		"Points To Holder": 5,
+		"Balls To Holder": 0,
+		"Item Drink Modifier": "None"
+	},
+]

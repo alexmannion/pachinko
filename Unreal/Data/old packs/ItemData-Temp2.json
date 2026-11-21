@@ -1,0 +1,56 @@
+{
+	"Another Item": 
+	{
+		"Item Rarity": 12,
+		"Item Image": "T_AngryLefty.png",
+		"Item Description": "A test card for the other data set",
+		"Item Modifier": "None",
+		"Drinks To Holder": 1,
+		"Drinks To Give": 11,
+		"Points To Holder": 111,
+		"Balls To Holder": 1111,
+		"Ball Type": "None",
+		"Item Round Lifespan": 1,
+		"Reset Balls To Default": true,
+		"Destroys Pegs": false,
+		"Violent Shake": false,
+		"Item Spawn Liklihood": 100,
+		"Forced Balls Next Turn": -1
+	},
+	"One Helluvah Item": 
+	{
+		"Item Rarity": 23,
+		"Item Image": "T_OldBaller.png",
+		"Item Description": "Another test card wow!",
+		"Item Modifier": "None",
+		"Drinks To Holder": 2,
+		"Drinks To Give": 22,
+		"Points To Holder": 222,
+		"Balls To Holder": 2222,
+		"Ball Type": "None",
+		"Item Round Lifespan": 1,
+		"Reset Balls To Default": false,
+		"Destroys Pegs": false,
+		"Violent Shake": true,
+		"Item Spawn Liklihood": 100,
+		"Forced Balls Next Turn": -1
+	},
+	"Bonjour, Item!": 
+	{
+		"Item Rarity": 31,
+		"Item Image": "T_Takedown.png",
+		"Item Description": "Wow! what! a THIRD card!!!",
+		"Item Modifier": "None",
+		"Drinks To Holder": 3,
+		"Drinks To Give": 33,
+		"Points To Holder": 333,
+		"Balls To Holder": 3333,
+		"Ball Type": "None",
+		"Item Round Lifespan": 1,
+		"Reset Balls To Default": false,
+		"Destroys Pegs": true,
+		"Violent Shake": false,
+		"Item Spawn Liklihood": 100,
+		"Forced Balls Next Turn": -1
+	}
+}
