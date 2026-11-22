@@ -72,3 +72,17 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Unreal project lives in a subfolder - ignore generated folders at any depth
+**/Binaries/
+**/Builds/
+**/Build/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+*.lnk
+
+# Local backups
+Unreal_UE5.3_backup/
+Unreal.zip
+/Data/
